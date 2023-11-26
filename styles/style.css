@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+main {
+    background-image: url('../img/2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 15% 50px 15%;
+}
+
+main > section > div {
+    height: 26px;
+    width: 110px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+main > section > div > h1{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+main > section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+}
+
+
+main > section > article > div > h1 {
+    font-size: 40px;
+}
+main > section > article > div > h3 {
+    font-size: 22px;
+    margin-left: 15px;
+}
+main > section > article > div > p {
+    font-size: 17px;
+}
+
+main > section > article > div{
+    margin-top: 10px;
+}
+
+main > section > article:nth-child(2){
+    background-color: #00BF63;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    color: white;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    margin-top: -30px;
+}
+
+/*seccion articulos*/
+
+body > section{
+    height: 450px;
+    padding-top: 45px;
+    padding: 45px 150px 15px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body > section > article {
+    width: 300px;
+    height: 400px;
+}
+
+body > section > article > figure{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > section > article > div{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    margin: 0px 15px 0px 15px;
+}
+footer div {
+    background-color: #00BF63;
+    width: 150px;
+    height: 25px;
+    color: white;
+    border-radius: 25px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer h4{
+    font-weight: 100;
+
+}
